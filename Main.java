@@ -17,7 +17,6 @@ public class Main {
         System.out.println(thirdVip.getName());
     }
 
-
     public static class VipCustomer{
 
        private String name;
@@ -25,7 +24,7 @@ public class Main {
        private String emailAdd;
 
 
-        // Create the  1st Constructor and setting the fields in the constructors
+        // Create the  1st.Constructor and setting the fields in the constructors
 
         public VipCustomer(){
             this("Default Name", 10000.00, "Default@email.com");
@@ -33,14 +32,15 @@ public class Main {
         }
 
 
-        // 2nd Constructor, calling first constructor
+        // 2nd.Constructor, calling first constructor
+        
         public VipCustomer(String name, double creditLmt) {
             // Constructor has to be the first line that is called, "Constructor first"
            this(name,creditLmt, "unkown@email.com");
 
         }
 
-        // 3 Constructor
+        // ------3. Constructor ---------//
         public VipCustomer(String name,double creditLmt,String emailAdd){
 
             this.name = name;
