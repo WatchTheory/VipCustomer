@@ -1,0 +1,2 @@
+# VipCustomer
+Exercise of Constructors 
